@@ -5,6 +5,6 @@ token=$1
 
 git remote remove origin
 git remote add origin https://$token@github.com/$user/$dir
-git push --set-upstream origin master
+git push --set-upstream origin main
 
 
